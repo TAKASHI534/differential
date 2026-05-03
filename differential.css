@@ -122,3 +122,77 @@ button:hover {
   border-radius: 12px;
   border: 1px solid #c7d2fe;
 }
+
+@media (max-width: 640px) {
+  header {
+    padding: 20px 16px;
+  }
+
+  main {
+    margin: 16px auto;
+    padding: 0 16px 32px;
+  }
+
+  section {
+    padding: 18px;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  h2 {
+    font-size: 1.15rem;
+  }
+
+  .input-group {
+    gap: 10px;
+  }
+
+  input[type="text"],
+  button,
+  select {
+    padding: 12px 14px;
+    font-size: 0.95rem;
+  }
+
+  .result {
+    padding: 16px;
+  }
+
+  .step-block {
+    padding: 16px;
+  }
+
+  .final-answer {
+    padding: 18px;
+  }
+
+  .example-list li {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 420px) {
+  header {
+    padding: 18px 14px;
+  }
+
+  main {
+    margin: 12px auto;
+    padding: 0 12px 28px;
+  }
+
+  section {
+    border-radius: 12px;
+  }
+
+  .math-display,
+  .katex-display {
+    padding: 8px 10px;
+  }
+
+  .step-title {
+    font-size: 0.98rem;
+  }
+}
