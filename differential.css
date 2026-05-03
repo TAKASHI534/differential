@@ -1,0 +1,124 @@
+body {
+  font-family: Yu Gothic, Meiryo, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8fafc;
+  color: #111827;
+}
+
+header {
+  background: #2563eb;
+  color: white;
+  padding: 24px 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 960px;
+  margin: 24px auto;
+  padding: 0 20px 40px;
+}
+
+section {
+  margin-bottom: 28px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  padding: 24px;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+.input-group {
+  display: grid;
+  gap: 12px;
+}
+
+input[type="text"],
+button,
+select {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+  outline: none;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 160ms ease;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.result {
+  margin-top: 16px;
+  padding: 18px;
+  background: #f1f5f9;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.katex-display,
+.math-display {
+  margin: 0.7em 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  background: #ffffff;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.05);
+}
+
+.step-block {
+  margin-bottom: 18px;
+  padding: 18px;
+  background: #f8fafc;
+  border-left: 4px solid #2563eb;
+  border-radius: 14px;
+}
+
+.step-title {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1d4ed8;
+}
+
+.final-answer {
+  margin-top: 20px;
+  padding: 20px;
+  background: #ecfdf5;
+  border: 1px solid #86efac;
+  border-radius: 16px;
+  color: #166534;
+}
+
+.example-list li {
+  margin-bottom: 10px;
+}
+
+.warning {
+  color: #b91c1c;
+  font-weight: bold;
+}
+
+.summary-box {
+  margin-top: 1em;
+  padding: 14px;
+  background: #eef2ff;
+  border-radius: 12px;
+  border: 1px solid #c7d2fe;
+}
